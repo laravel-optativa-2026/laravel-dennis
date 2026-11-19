@@ -4,7 +4,7 @@
 |---|---|
 | **Fecha de inicio** | 09/11/2026 |
 | **Fecha de fin** | 16/11/2026 |
-| **Tiempo dedicado** | 2 horas |
+| **Tiempo dedicado** | 4 horas |
 | **Rama de Git** | `tema01` |
 
 ---
@@ -42,10 +42,51 @@ Route::view('/contact', 'landing.contact')-> name('contact');
 
 ## 3. 📋 Resumen de comandos utilizados
 
+## Docker Compose
+
 | Comando | Para qué sirve |
 |---------|----------------|
-| `composer ...` | ... |
-| `docker-compose ...` | ... |
+| `docker compose up --build` | Construir imágenes y levantar contenedores (primera vez o tras cambiar `Dockerfile`/`docker-compose.yml`) |
+| `docker compose up --build -d` | Lo mismo, en segundo plano |
+| `docker compose up` | Levantar contenedores sin reconstruir |
+| `docker compose up -d` | Levantar contenedores en segundo plano |
+| `docker compose down` | Parar y eliminar los contenedores |
+| `docker compose exec php bash` | Entrar en una consola dentro del contenedor PHP |
+| `docker-compose down` | Versión antigua de `docker compose down` (la usa la 2.4) |
+| `docker-compose up -d` | Versión antigua de `docker compose up -d` (la usa la 2.4) |
+
+## Docker
+
+| Comando | Para qué sirve |
+|---------|----------------|
+| `docker ps` | Listar contenedores en ejecución y ver su nombre real |
+| `docker exec -it nombre_del_contenedor mysql -uroot -p` | Abrir el cliente MySQL en un contenedor concreto |
+| `docker exec -it laravel_app_php_1 bash` | Entrar en el contenedor PHP indicando su nombre |
+
+## Composer
+
+| Comando | Para qué sirve |
+|---------|----------------|
+| `composer --version` | Comprobar que Composer está instalado en el contenedor |
+| `composer create-project laravel/laravel:^12.0 .` | Crear el proyecto Laravel 12 en la carpeta actual |
+
+## Laravel (instalador)
+
+| Comando | Para qué sirve |
+|---------|----------------|
+| `laravel --version` | Comprobar la versión del instalador |
+| `laravel new nombre-del-proyecto` | Crear un nuevo proyecto Laravel |
+
+
+## Terminal (Linux / shell)
+
+| Comando | Para qué sirve |
+|---------|----------------|
+| `cd src` | Entrar en la carpeta de trabajo del proyecto |
+| `rm index.php` | Borrar el `index.php` de prueba antes de instalar Laravel |
+| `pwd` | Ver en qué carpeta estás |
+| `cd /var/www/html` | Ir a la carpeta donde está montado `src/` dentro del contenedor |
+
 
 ---
 
@@ -97,15 +138,17 @@ SESSION_DRIVER=file
 <!-- Captura(s) de la aplicación funcionando al terminar el tema. -->
 
 Vista *about.blade.php*
-![Descripción de la captura](img/temaXX/01-descripcion.png)
+![Escrito sobre el web.php](img/tema01/about.blade.php.png)
+![Vista navegador](img/tema01/Navegador_about.png)
 
 
 Vista *home.blade.php*
-![Descripción de la captura](img/temaXX/01-descripcion.png)
-
+![Escrito sobre el web.php](img/tema01/home.blade.php.png)
+![Vista navegador](img/tema01/Navegador_home.png)
 
 Vista *contact.blade.php*
-![Descripción de la captura](img/temaXX/01-descripcion.png)
+![Escrito sobre el web.php](img/tema01/contact.blade.php.png)
+![Vista navegador](img/tema01/Navegador_contact.png)
 
 ---
 
@@ -113,4 +156,4 @@ Vista *contact.blade.php*
 
 - **Qué he aprendido:** He aprendido lo que son los Frameworks, a configurar un docker y a instalar y configurar Laravel.
 - **Qué me ha costado más:** Cuando se dio el problema de acceso
-- **Qué haría diferente / dudas pendientes:** 
+- **Qué haría diferente / dudas pendientes:** Nada, quizás tenga algunos problemas a futuro si tengo que volver a instalar y configurarlo todo pero bajo los apuntes y algunas anotaciones dudo tener muchos problemas.
