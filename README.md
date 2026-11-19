@@ -1,6 +1,6 @@
 # 📘 Proyecto Laravel — [Tu nombre y apellidos]
 
-> **Curso:** [Curso / Grupo] · **Módulo:** [Nombre del módulo] · **Curso académico:** 20XX-20XX
+> **Curso:** 2-DAM · **Módulo:** Modulo Optativo · **Curso académico:** 2026-2027
 
 Este repositorio contiene la aplicación Laravel que estoy desarrollando siguiendo los temas de autoformación, junto con la documentación de cada tema: pasos seguidos, comandos empleados, capturas de pantalla, problemas encontrados y cómo los he resuelto.
 
@@ -27,7 +27,7 @@ Este repositorio contiene la aplicación Laravel que estoy desarrollando siguien
 
 | Tema | Título | Estado |
 |:----:|--------|:------:|
-| 01 | [Instalación y primer proyecto](docs/tema01-instalacion.md) | ⏳ |
+| 01 | [Instalación y primer proyecto](docs/tema01-instalacion.md) | 🚧 |
 | 02 | [Título del tema 2](docs/tema02-nombre.md) | ⏳ |
 | 03 | [Título del tema 3](docs/tema03-nombre.md) | ⏳ |
 
