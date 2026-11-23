@@ -1,2 +1,20 @@
-<h1>Esta es la pagina de contact de Dennis</h1>
-<p>Lore ipsum dolor sit amet, consectetur adipiscing elit. Dennis</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <main>
+        <p>Formulario de contacto.</p>
+    </main>
+
+    <footer>
+        <p>Pie de página &copy; 2025</p>
+    </footer>
+</body>
+</html>

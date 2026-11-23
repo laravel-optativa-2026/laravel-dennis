@@ -2,10 +2,10 @@
 
 | | |
 |---|---|
-| **Fecha de inicio** | dd/mm/aaaa |
-| **Fecha de fin** | dd/mm/aaaa |
+| **Fecha de inicio** | 23/11/2026 |
+| **Fecha de fin** | 30/11/2026 |
 | **Tiempo dedicado** | X horas |
-| **Rama de Git** | `temaXX` |
+| **Rama de Git** | `tema02` |
 
 ---
 
