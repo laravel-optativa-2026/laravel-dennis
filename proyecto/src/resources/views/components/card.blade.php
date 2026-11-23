@@ -1,4 +1,5 @@
 <div class="card">
     <h2>{{ $title }}</h2>
-    <p>{{ $content }}</p>
+    <img src="{{ asset('assets/images/servicios.png') }}" alt="Servicio" width="128px">
+    <p>{{ $slot }}</p>
 </div>

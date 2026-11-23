@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
     <meta charset="UTF-8">
     <title>
         @yield('title')
