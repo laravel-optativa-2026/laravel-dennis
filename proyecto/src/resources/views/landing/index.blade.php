@@ -1,8 +1,12 @@
 @extends('landing.layouts.landing')
-@section('title', 'Sobre nosotros')
+@section('title', 'Home')
+
 @section('header')
-    <h1>Sobre nosotros</h1>
+    <h1>Viajes Dennis</h1>
 @endsection
+
 @section('content')
-    <p>Información sobre nuestra empresa.</p>
+    <div class="cover">
+        <img src="{{ asset('assets/images/portada.jpg') }}" alt="Portada">
+    </div>
 @endsection
