@@ -5,7 +5,7 @@
 | **Fecha de inicio** | dd/mm/aaaa |
 | **Fecha de fin** | dd/mm/aaaa |
 | **Tiempo dedicado** | X horas |
-| **Rama de Git** | `temaXX` |
+| **Rama de Git** | `temaxx` |
 
 ---
 
