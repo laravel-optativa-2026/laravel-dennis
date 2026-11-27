@@ -7,6 +7,6 @@
 
 @section('content')
     <div class="cover">
-        <img src="{{ asset('assets/images/portada.jpg') }}" alt="Portada">
+        <img src="{{ asset('assets/images/portada.png') }}" alt="Portada">
     </div>
 @endsection

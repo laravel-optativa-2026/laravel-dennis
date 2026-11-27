@@ -365,9 +365,8 @@ Route::view('/contact', 'landing.contact')->name('contact');
 
 | Comando | Para qué sirve |
 |---------|----------------|
-| `php artisan ...` | ... |
-| `composer ...` | ... |
-| `git ...` | ... |
+| `Ninguno` | ... |
+
 
 ---
 
@@ -398,15 +397,17 @@ Undefined variable: content
 
 <!-- Captura(s) de la aplicación funcionando al terminar el tema. -->
 
-![Resultado final del tema](img/temaXX/99-resultado-final.png)
+![Home](img\tema02\Home_viajes_Dennis.png)
+![Services](img\tema02\services_viajes_dennis.png)
+![Contact](img\tema02\Contact_viajes_dennis.png)
 
 ---
 
 ## 6. 💭 Conclusiones
 
-- **Qué he aprendido:** ...
-- **Qué me ha costado más:** ...
-- **Qué haría diferente / dudas pendientes:** ...
+- **Qué he aprendido:** A generar archivos blade y configurarlos
+- **Qué me ha costado más:** Cuando se me ha reventado todo y solo funcionaban dos paginas
+- **Qué haría diferente / dudas pendientes:** ¿Es necesario crear 10 ficheros diferentes o puedes hacer uno que englobe todo?
 
 
 
